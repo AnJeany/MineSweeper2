@@ -47,7 +47,7 @@ namespace mineText
                                     || yOrdinateOfNeighbour == MAP_HEIGHT;
                             if (isOutOfMapNeighbour)
                             {
-                                continue;
+                                continue
                             }
 
                             bool isMineOwnerNeighbour = map[yOrdinateOfNeighbour, xOrdinateOfNeighbour].Equals("*");
